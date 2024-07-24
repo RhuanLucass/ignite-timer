@@ -82,6 +82,7 @@ export function Home() {
             placeholder="Dê um nome para o seu projeto"
             id="task"
             {...register("task")}
+            {...register("task")}
           />
           <datalist id="task-suggestions">
             <option value="Projeto 1" />
